@@ -8,9 +8,19 @@ This is a simple todo web application built with ReactJS and NodeJS. It allows u
 
 ## Features
 - **User Authentication**: Provides endpoints for user signup and login.
+![image](https://github.com/ProgrammingPirates/Rise11_Assessment-/assets/78801686/4ff97da5-91a2-4358-acbb-7d8a495434e9)
+
+![image](https://github.com/ProgrammingPirates/Rise11_Assessment-/assets/78801686/ba6d292f-2871-4c73-b07a-196f4f307d56)
+![image](https://github.com/ProgrammingPirates/Rise11_Assessment-/assets/78801686/bef3ee60-9c0f-4f64-9f2b-f2d2745b3f88)
+
+
 - **Todo Management**: Offers endpoints for creating, updating, and deleting todo items.
 - **Secure Authentication**: Uses JWT (JSON Web Tokens) for secure user authentication.
+
+![image](https://github.com/ProgrammingPirates/Rise11_Assessment-/assets/78801686/d8d4974a-4679-45a7-8a31-216f1f6ddbe3)
+
 - **Database Integration**: Integrates with MongoDB to store user and todo data.
+![image](https://github.com/ProgrammingPirates/Rise11_Assessment-/assets/78801686/879ae2d2-7b3d-447b-85c7-c5570df7be2a)
 
 ## Technologies Used
 
