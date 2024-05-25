@@ -1,0 +1,72 @@
+.todo-list {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .todo-list h2 {
+    text-align: center;
+    color: #333333;
+  }
+  
+  .todo-list form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .todo-list input[type="text"] {
+    flex: 5;  /* This makes the text input take up more space */
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+  }
+  
+  .todo-list button[type="submit"] {
+    flex: 1;  /* This makes the button smaller compared to the input */
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .todo-list button[type="submit"]:hover {
+    background-color: #218838;
+  }
+  
+  .todo-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  @media (max-width: 600px) {
+    .todo-list {
+      padding: 10px;
+    }
+  
+    .todo-list form {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .todo-list input[type="text"] {
+      width: 100%;
+      border-radius: 5px;
+      margin-bottom: 10px;
+    }
+  
+    .todo-list button[type="submit"] {
+      width: 100%;
+      border-radius: 5px;
+    }
+  }
+  
